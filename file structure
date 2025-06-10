@@ -1,0 +1,13 @@
+Client-side files:
+payment_form.html: Frontend form for making a payment.
+payment_status_integration_example.html: Example frontend page for freelancers to view payment status.
+show_payment_status.js: JavaScript to fetch and display payment status on the freelancer side.
+
+
+Freelancer-side files:
+payment_status_integration_example.html: Also used by freelancers to view payment status.
+show_payment_status.js: Used to fetch and display payment data.
+
+Backend (server-side) files:
+add_payment.php: PHP API endpoint to record payments.
+show_payments.php: PHP API endpoint to fetch payment records.
